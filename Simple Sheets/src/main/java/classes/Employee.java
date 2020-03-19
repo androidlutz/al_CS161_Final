@@ -1,5 +1,8 @@
+
+//Package Name
 package main.java.classes;
 
+//Imports
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -14,7 +17,7 @@ public class Employee extends Person {
     
 
     public Employee(int iDNumber, String firstName, String lastName, String phoneNumber, String eMail,
-            Address mailingAddress, String hireDate, double salary, String department, double commission)throws ParseException {
+                    Address mailingAddress, String hireDate, double salary, String department, double commission)throws ParseException {
         setiDNumber(iDNumber);
         setFirstName(firstName);
         setLastName(lastName);

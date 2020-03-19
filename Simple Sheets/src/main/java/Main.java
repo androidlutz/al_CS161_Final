@@ -12,7 +12,6 @@ package main.java;
 //Imports
 import java.util.Date;
 import java.util.List;
-import java.time.LocalDate;
 import java.util.ArrayList;
 import java.text.*;
 import main.java.classes.*;
@@ -79,13 +78,40 @@ public class Main{
                                       
                    System.out.println(one.printOrder());
 
-                //update quantity on hand after a purchase
-                  //get quantity on hand for specified product, 
-                  //subtract the quantity of each line item 
-                  //from it's corresponding product quantity on hand
-                  //System.out.println(products.get(0).getQuantityOH());//subtract the quantity of each line item of this product);
-
-                 
+                             
                  
     }
 } 
+
+/* 
+Footer
+Order Date: Thu Mar 19 16:32:47 PDT 2020
+Order Number: 123
+Sales Associate: 1
+
+Customer: John Smith
+Billing Address: 456 Third
+The Dalles OR, 97058
+
+Shipping Address: 789 Fourth
+Hood River OR, 97031
+
+Status: Sales
+
+Products Ordered:
+Ammount: 15
+Product: Hammermill
+Sub Total: 479.84999999999997
+
+Ammount: 9
+Product: Domtar
+Sub Total: 533.61
+
+Ammount: 8
+Product: TruRed
+Sub Total: 479.92
+
+Order Total: 1493.38
+Commission: 224.007
+Updated Product Totals :null
+ */

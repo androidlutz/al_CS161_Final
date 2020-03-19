@@ -1,6 +1,8 @@
+
+//Package Name
 package main.java.classes;
 
-
+//Class Name
 public class Address{
 
     //Members
@@ -11,8 +13,7 @@ public class Address{
     private String state;
     private int zip;
 
-    //Member Functions
-    
+    //Member Functions    
     public Address(
         int addressID, 
         String line1,
@@ -82,7 +83,6 @@ public class Address{
         StringBuilder sb = new StringBuilder();
         sb.append(getLine1());
         if(!getLine2().equals("") && getLine2() != null)
-           // sb.append("\r\n");
             sb.append(getLine2());
     
         sb.append("\r\n");

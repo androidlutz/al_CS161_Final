@@ -1,3 +1,4 @@
+//Package Name
 package main.java.classes;
 
 public class Product{
@@ -50,6 +51,7 @@ public class Product{
         this.quantityOH = quantityOH;
     }
     
+    //Method Updates quantity on hand
     public void updateQuantityOH(int i){
     setQuantityOH(getQuantityOH() - i);
     }
@@ -57,7 +59,6 @@ public class Product{
     //Add to Quantity On Hand
     public void addQuantity(int q){
         setQuantityOH(getQuantityOH() + q);
-    }
-    
+    }    
     
 }
