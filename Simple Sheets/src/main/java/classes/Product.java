@@ -15,6 +15,7 @@ public class Product{
         this.price = price;
         this.quantityOH = quantityOH;
         this.productID = productID;
+
         //updateQuantOnHand(quantityOH);
         
     }
