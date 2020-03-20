@@ -159,7 +159,8 @@ public class Order{
         
         sb.append("\r\n" + "Order Date: " + getDate());
         sb.append("\r\n" + "Order Number: " +  getOrderNumber());
-        sb.append("\r\n" + "Sales Associate: " + employee.getiDNumber()); 
+        sb.append("\r\n" + "Sales Associate ID: " + employee.getiDNumber());
+        sb.append("\r\n" + "Sales Associate Name: " + employee.getFirstName() + " " + employee.getLastName()); 
         sb.append("\r\n");
         sb.append("\r\n" + "Customer: " + customer.getCustomerName());
         sb.append("\r\n" + "Billing Address: "  + getBillingAddress().printAddress());

@@ -10,7 +10,7 @@ public class Product{
     private int quantityOH;
     
     //Member functions
-    public Product(int productID, String name, double price, int quantityOH, double total) {
+    public Product(int productID, String name, double price, int quantityOH) {
         this.name = name;
         this.price = price;
         this.quantityOH = quantityOH;

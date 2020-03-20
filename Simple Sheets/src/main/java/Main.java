@@ -22,9 +22,9 @@ public class Main{
 
         //Product List
         List<Product> products = new ArrayList<Product>();
-        products.add(new Product(1, "Hammermill", 31.99, 100, 30));
-        products.add(new Product(2, "Domtar", 59.29, 50, 20));
-        products.add(new Product(3, "TruRed", 59.99, 40, 30));
+        products.add(new Product(1, "Hammermill", 31.99, 100 ));
+        products.add(new Product(2, "Domtar", 59.29, 50 ));
+        products.add(new Product(3, "TruRed", 59.99, 40 ));
 
 
         //Employee Mailing Addresses
